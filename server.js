@@ -64,7 +64,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/arcticle-one', function(req,res){
-    res.send(createTemplate(arcticleOne));
+    res.send(createTemplate(arcticleone));
 });
 
 app.get('/arcticle-two', function(req,res){
