@@ -21,6 +21,10 @@ app.get('/arcticle-three', function(req,res){
     res.send('Arcticle three requested and will be server here');
 });
 
+app.get('/arcticle-four', function(req,res){
+    res.send('Arcticle four requested and will be server here');
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
