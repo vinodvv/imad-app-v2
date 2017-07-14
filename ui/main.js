@@ -8,10 +8,10 @@ element.innerHTML = 'New value';
 // Move the image
 var img=document.getElementById('madi');
 var marginLeft = 0;
-function moveRight (){
-    marginLeft = marginLeft + 10;
+function moveRight () {
+    marginLeft = marginLeft + 5;
     marginLeft = marginLeft + 'px';
 }
 img.onclick = function () {
-    var interval = setInterval(moveRight, 100);
+    var interval = setInterval(moveRight, 50);
 };
